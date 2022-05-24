@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_500"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amethysta"
+        android:text="@string/logo_name"
+        android:layout_marginTop="50sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/MyBar"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginHorizontal="150sp"
+        android:layout_marginTop="80sp"
+        android:animationResolution="@integer/material_motion_duration_medium_1"
+        android:background="@color/purple_500"
+        android:backgroundTint="@color/purple_500"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/MyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MyBar"
+        android:layout_marginHorizontal="130sp"
+        android:layout_marginTop="100sp"
+        android:backgroundTint="@color/purple_200"
+        android:fontFamily="@font/amethysta"
+        android:text="@string/button_name"
+        android:textColor="#311B92" />
+
+</RelativeLayout>

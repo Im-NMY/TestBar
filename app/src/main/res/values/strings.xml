@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestBar</string>
+    <string name="logo_name">Hello this My Test Bar</string>
+    <string name="button_name">PAUSE</string>
+</resources>
